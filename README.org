@@ -1,6 +1,11 @@
 * Data scraping using Python and R
 ** Migrant Deaths by month for 2015 from Missing migrants projects
 
+** Link to the resulting Google spreadsheet
+
+[[https://docs.google.com/spreadsheets/d/1lJ-HserVAgJNrBFa1tSReKYniSPp1yxZmwXXUKEUI6o/edit?usp=sharing][Google spreadsheet]]
+
+** A simple visualization of the raw data
 
 #+ATTR_HTML: :width 640
 [[./deaths.png]]
