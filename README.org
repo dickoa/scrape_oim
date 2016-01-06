@@ -1,2 +1,6 @@
 * Data scraping using Python and R
 ** Migrant Deaths by month for 2015 from Missing migrants projects
+
+
+#+ATTR_HTML: :width 640
+[[./deaths.png]]

@@ -43,7 +43,7 @@ glimpse(tab)
 summary(tab)
 
 ### Some ploting for fun
-p <- tab %>%
+tab %>%
   filter(Area != "Total") %>%
   rename(total = `Total to date`) %>%
   ggplot(aes(reorder(Area, total), total, fill = Area)) +
@@ -52,4 +52,4 @@ p <- tab %>%
   coord_flip() +
   theme(legend.position = "none")
 
-
+ggsave("deaths.png", last_plot())
